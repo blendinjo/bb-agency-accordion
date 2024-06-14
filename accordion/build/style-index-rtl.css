@@ -1,0 +1,124 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.accordion-wrapper {
+  max-width: 770px !important;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #eae9ed;
+  overflow: hidden;
+}
+.accordion-wrapper .accordion-section {
+  border-bottom: 1px solid #eae9ed;
+  padding: 20px;
+}
+.accordion-wrapper .accordion-section:last-child {
+  border-bottom: 0;
+}
+.accordion-wrapper .accordion-section-header {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-wrapper .accordion-section-header:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-wrapper .accordion-section-header input, .accordion-wrapper .accordion-section-header p {
+  border: 0;
+  font-size: 24px;
+  line-height: 32px;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+.accordion-wrapper .accordion-section-header svg {
+  transition: all 0.15s ease-in-out;
+}
+.accordion-wrapper .accordion-section-header svg.active {
+  transform: rotate(-180deg);
+}
+.accordion-wrapper .accordion-section-header .components-base-control {
+  width: 100%;
+}
+.accordion-wrapper .accordion-section-content, .accordion-wrapper .accordion-section-content textarea {
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  border: 0;
+  max-width: 770px;
+  width: 100%;
+}
+.accordion-wrapper .accordion-section-content:focus:not(:focus-visible), .accordion-wrapper .accordion-section-content textarea:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-section-controls {
+  display: flex;
+  padding: 12px 0 18px;
+  border-bottom: 1px solid #eae9ed;
+  border-width: 1px 0;
+  margin-bottom: 6px;
+}
+.accordion-section-controls-accordion-settings {
+  display: flex;
+  flex-direction: column;
+}
+.accordion-section-controls-order-settings {
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.accordion-section-controls.hovered {
+  border-bottom: 3px solid blue;
+}
+.accordion-section-controls-remove {
+  border: 1px solid red;
+  justify-content: center;
+}
+.accordion-section-controls-add-section {
+  border: 1px solid blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 12px;
+}
+
+.components-font-size-picker__header {
+  display: none !important;
+}
+
+.components-panel__body p.label, .components-panel__body .tab-title {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.components-panel__body .tab-title {
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.components-panel__body fieldset {
+  margin-bottom: 16px;
+}
